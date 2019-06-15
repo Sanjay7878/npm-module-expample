@@ -1,0 +1,95 @@
+.navbar{
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(50, 158, 122);
+    box-shadow: 0px 0px 5px 2px grey;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px rgb(155, 15, 15);
+}
+
+
+#wrapper{
+    margin-top: 50px;
+    border: 1px solid rgb(121, 121, 121);
+    text-align: center;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 5px 2px grey;
+    background-color: rgb(206, 173, 113);
+}
+
+#npm{
+    border: none;
+    height: 1vh;
+    color: rgb(32, 31, 31);
+    background-color:rgb(32, 31, 31);
+}
+
+.desc{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.install-npm p{
+    font-size: 25px;
+}
+
+.functions{
+    text-align: start;
+}
+
+.functions h4{
+    margin: 15px;
+}
+
+.functions h4 i {
+    margin-right: 10px;
+}
+
+.functions ol {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.functions ol li {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.functions code div{
+    margin-left: 20px;
+    background-color: rgb(212, 212, 212);
+    width: auto;
+}
+
+
+.functions code div p {
+    margin-left: 15px;
+    color: black;
+}
+
+@media (max-width: 767px){
+    .navbar-brand{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    .navbar-brand{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px){
+    .navbar-brand{
+        font-size: 15px;
+    }
+}
+
+

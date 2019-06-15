@@ -1,0 +1,65 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header>
+  <nav class="navbar navbar-light">
+    <a class="navbar-brand" href="#">NPM Shopping-Cart DashBoard</a>
+  </nav>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12" id="wrapper">
+      <h2 style="margin-top: 20px"><strong>NPM Module</strong></h2>
+      <hr id="npm">
+      <h3 size ="100">This is a simple module to add items/products to the shopping cart</h3>
+      <p class="desc">Use the below command to install the npm package in your node application</p>
+      <code class="install-npm">
+          <i class="fa fa-download" aria-hidden="true"></i><p>npm i shopping-cart-example --save</p>
+      </code>
+      <hr>
+      <div class="functions">
+        <h4>'shopping-cart-example' module has 2 functions</h4>
+        <ol>
+          <li>addToCart(...itemObject) -  To add an object containing the product details to the cart</li>
+          <li>allItemsInCart() - To display all the items in the cart</li>
+        </ol>
+        <hr>
+        <p>Example:</p>
+        <h4><i class="fa fa-arrow-right" aria-hidden="true"></i>addToCart(... itemObject) - Takes a itemObject as a REST parameter</h4>
+        <code>
+          <div>
+            <br>
+            <P>const addingToCart = require('shopping-cart-sample')</P>
+            <p>let product 1 = {{'{'}} <br>
+                productName: "Sunglasses",<br>
+                quantity: 1,<br>
+                price: 100<br>
+                {{'}'}}
+            </p>
+            <p>let product 1 = {{'{'}} <br>
+                productName: "Shoes",<br>
+                quantity: 1,<br>
+                price: 450<br>
+                {{'}'}}
+            </p>
+            <p>addingToCart.addToCart(product1, product2)</p>
+          </div>
+        </code>
+        <hr>
+        <h4><i class="fa fa-arrow-right" aria-hidden="true"></i>use allItemsInCart() to show the products added to cart</h4>
+        <code>
+          <div>
+            <p>console.log(addingToCart.allItemsInCart())</p>
+          </div>
+        </code>
+        <p>Output:</p>
+        <code>
+          <div>
+            <p>[{{'{'}} productName: "Sunglasses", quantity: 1, price: 100{{'}'}},<br>
+                {{'{'}} productName: "Shoes", quantity: 1, price: 450{{'}'}}]</p>
+          </div>
+        </code>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
