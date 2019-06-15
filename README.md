@@ -1,19 +1,19 @@
-#This is a simple module to add item to shopping cart.
+This is a simple module to add item to shopping cart.
 
 ````
-npm install shopping-cart-sample --
+npm install shopping-cart-sample --save
 ````
 
-#use the below method to add items to the cart
+use the below method to add items to the cart
 
-#it takes an 2 REST argument of product/item details
+it takes an 2 REST argument of product/item details
 
 ````
 
 addToCart.addToCart((item1, item2), (qty1, qty2))
 ````
 
-#Use the below method to see total number of items added to the cart
+Use the below method to see total number of items added to the cart
 
 ````
 
